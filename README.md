@@ -1,8 +1,8 @@
-# BSC Mint 检查表（脱敏公开版）
+# BSC Mint 检查表
 
 一份在 BNB Smart Chain（BSC）上参与「打新 / mint」之前逐条核对的检查表，主要针对 Binance Agentic Wallet / Agent ID（.ai）生态里出现的第三方代币和 NFT mint。
 
-- **当前版本：v2.5**
+- **当前版本：v2.6（规则文档；不含钱包执行）**
 - **更新日期：2026-10-31**
 - 语言：简体中文
 
@@ -11,8 +11,18 @@
 | 文件 | 说明 |
 |---|---|
 | [CHECKLIST.md](CHECKLIST.md) | 检查表正文：必须满足 / 继续观察 / 一票否决、执行前后检查、卖出参考规则、工具规则 |
-| [CHANGELOG.md](CHANGELOG.md) | v1 → v2 → v2.1 → v2.2 → v2.3 → v2.4 → v2.5 的变更说明 |
+| [CHANGELOG.md](CHANGELOG.md) | v1 → v2 → v2.1 → v2.2 → v2.3 → v2.4 → v2.5 → v2.6 的变更说明 |
 | [LICENSE](LICENSE) | CC BY 4.0 |
+
+## 本稿范围
+
+这是基于 v2.5 整理的 v2.6 规则文档，不包含钱包连接、签名或交易实现。拟定执行口径仍须确认并配置，不能因文档发布而执行。
+
+- [REVIEW.md](REVIEW.md)：修改说明、需要审阅的口径和边界场景。
+- [v2.5-to-v2.6.diff](v2.5-to-v2.6.diff)：README、CHECKLIST、CHANGELOG 的逐行差异。
+- [BASELINE.json](BASELINE.json)：基线文件指纹。
+
+先审阅状态定义与授权边界，再审阅止盈拟定口径。文档通过不等于交易授权，未配置的必要参数不能由 agent 自行填写。
 
 ## 怎么用
 
