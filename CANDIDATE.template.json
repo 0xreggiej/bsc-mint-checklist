@@ -1,0 +1,362 @@
+{
+  "schema_version": 1,
+  "record_kind": "blank_template",
+  "mode": "read_only",
+  "notes": [
+    "Not a verified project, an active monitor or a transaction configuration.",
+    "null means unknown; empty lists do not prove absence or completed review.",
+    "All addresses and evidence must be filled from verified sources."
+  ],
+  "candidate": {
+    "chain_id": 56,
+    "contract_address": null,
+    "display_name": null,
+    "first_seen_at": null,
+    "reviewed_at": null,
+    "lifecycle_stage": "未知",
+    "mint_open": null,
+    "related_contracts": []
+  },
+  "discovery": {
+    "route_ids": [],
+    "reason": null,
+    "source_refs": [],
+    "transaction_hashes": [],
+    "event_refs": [],
+    "first_party_address_confirmation": "未知",
+    "address_search_started_at": null,
+    "address_search_deadline_minutes": 30
+  },
+  "roles": {
+    "transaction_sender": null,
+    "actual_creator": null,
+    "current_owner": null,
+    "privileged_roles": [],
+    "review_complete": false,
+    "evidence_ids": []
+  },
+  "bytecode": {
+    "block_number": null,
+    "block_hash": null,
+    "runtime_hash": null,
+    "hash_algorithm": null,
+    "metadata_stripped_hash": null,
+    "normalization_method_version": null,
+    "normalization_verified": false,
+    "template_similarity_notes": null
+  },
+  "coverage": [
+    {
+      "stream": "deployments",
+      "query_scope": null,
+      "range_start": null,
+      "latest_seen": {
+        "number": null,
+        "hash": null
+      },
+      "complete_through": {
+        "number": null,
+        "hash": null
+      },
+      "missing_ranges": [],
+      "coverage_status": "未配置",
+      "confirmation_policy": null,
+      "parser_version": null,
+      "conflicts": []
+    },
+    {
+      "stream": "mint_events",
+      "query_scope": null,
+      "range_start": null,
+      "latest_seen": {
+        "number": null,
+        "hash": null
+      },
+      "complete_through": {
+        "number": null,
+        "hash": null
+      },
+      "missing_ranges": [],
+      "coverage_status": "未配置",
+      "confirmation_policy": null,
+      "parser_version": null,
+      "conflicts": []
+    },
+    {
+      "stream": "contract_state",
+      "query_scope": null,
+      "range_start": null,
+      "latest_seen": {
+        "number": null,
+        "hash": null
+      },
+      "complete_through": {
+        "number": null,
+        "hash": null
+      },
+      "missing_ranges": [],
+      "coverage_status": "未配置",
+      "confirmation_policy": null,
+      "parser_version": null,
+      "conflicts": []
+    }
+  ],
+  "metrics": {
+    "window_start": null,
+    "window_end": null,
+    "time_basis": "block_timestamp",
+    "coverage_complete": false,
+    "successful_unique_callers": null,
+    "unique_mint_recipients": null,
+    "successful_mint_count": null,
+    "sampled_agent_id_holders": null,
+    "agent_id_sample_size": null,
+    "funding_association_notes": []
+  },
+  "checks": {
+    "mandatory": [
+      {
+        "rule_id": "M-1",
+        "result": "未知",
+        "evidence_ids": [],
+        "exemption_clause": null
+      },
+      {
+        "rule_id": "M-2",
+        "result": "未知",
+        "evidence_ids": [],
+        "exemption_clause": null
+      },
+      {
+        "rule_id": "M-3",
+        "result": "未知",
+        "evidence_ids": [],
+        "exemption_clause": null
+      },
+      {
+        "rule_id": "M-4",
+        "result": "未知",
+        "evidence_ids": [],
+        "exemption_clause": null
+      },
+      {
+        "rule_id": "M-5",
+        "result": "未知",
+        "evidence_ids": [],
+        "exemption_clause": null
+      },
+      {
+        "rule_id": "M-6",
+        "result": "未知",
+        "evidence_ids": [],
+        "exemption_clause": null
+      },
+      {
+        "rule_id": "M-7",
+        "result": "未知",
+        "evidence_ids": [],
+        "exemption_clause": null
+      },
+      {
+        "rule_id": "M-8",
+        "result": "未知",
+        "evidence_ids": [],
+        "exemption_clause": null
+      },
+      {
+        "rule_id": "M-9",
+        "result": "未知",
+        "evidence_ids": [],
+        "exemption_clause": null
+      },
+      {
+        "rule_id": "M-10",
+        "result": "未知",
+        "evidence_ids": [],
+        "exemption_clause": null
+      },
+      {
+        "rule_id": "M-11",
+        "result": "未知",
+        "evidence_ids": [],
+        "exemption_clause": null
+      }
+    ],
+    "veto": [
+      {
+        "rule_id": "V-1",
+        "result": "未知",
+        "evidence_ids": []
+      },
+      {
+        "rule_id": "V-2",
+        "result": "未知",
+        "evidence_ids": []
+      },
+      {
+        "rule_id": "V-3",
+        "result": "未知",
+        "evidence_ids": []
+      },
+      {
+        "rule_id": "V-4",
+        "result": "未知",
+        "evidence_ids": []
+      },
+      {
+        "rule_id": "V-5",
+        "result": "未知",
+        "evidence_ids": []
+      },
+      {
+        "rule_id": "V-6",
+        "result": "未知",
+        "evidence_ids": []
+      },
+      {
+        "rule_id": "V-7",
+        "result": "未知",
+        "evidence_ids": []
+      },
+      {
+        "rule_id": "V-8",
+        "result": "未知",
+        "evidence_ids": []
+      },
+      {
+        "rule_id": "V-9",
+        "result": "未知",
+        "evidence_ids": []
+      },
+      {
+        "rule_id": "V-10",
+        "result": "未知",
+        "evidence_ids": []
+      },
+      {
+        "rule_id": "V-11",
+        "result": "未知",
+        "evidence_ids": []
+      },
+      {
+        "rule_id": "V-12",
+        "result": "未知",
+        "evidence_ids": []
+      },
+      {
+        "rule_id": "V-13",
+        "result": "未知",
+        "evidence_ids": []
+      },
+      {
+        "rule_id": "V-14",
+        "result": "未知",
+        "evidence_ids": []
+      },
+      {
+        "rule_id": "V-15",
+        "result": "未知",
+        "evidence_ids": []
+      },
+      {
+        "rule_id": "V-16",
+        "result": "未知",
+        "evidence_ids": []
+      }
+    ],
+    "deployer_observations": [
+      {
+        "rule_id": "D-1",
+        "result": "未知",
+        "evidence_ids": [],
+        "unknown_alone_does_not_downgrade": true
+      },
+      {
+        "rule_id": "D-2",
+        "result": "未知",
+        "evidence_ids": [],
+        "unknown_alone_does_not_downgrade": true
+      },
+      {
+        "rule_id": "D-3",
+        "result": "未知",
+        "evidence_ids": [],
+        "unknown_alone_does_not_downgrade": true
+      },
+      {
+        "rule_id": "D-4",
+        "result": "未知",
+        "evidence_ids": [],
+        "unknown_alone_does_not_downgrade": true
+      }
+    ],
+    "other_observations": [],
+    "observation_review_complete": false
+  },
+  "decision": {
+    "admission_status": "待核实",
+    "research_priority": "常规复查",
+    "priority_reason": "空白记录，尚未取得证据",
+    "all_applicable_checks_reviewed": false,
+    "blocking_reasons": [
+      "候选身份、关键证据和采集配置尚未填写"
+    ],
+    "evidence_ids": [],
+    "next_readonly_steps": [
+      "核实链与完整地址、一手来源及数据覆盖范围"
+    ],
+    "recheck_condition": null,
+    "prior_decision_ids": [],
+    "permanent_veto_rule_ids": [
+      "V-6",
+      "V-11",
+      "V-12"
+    ],
+    "permanent_veto_triggered": null,
+    "permanent_veto_evidence_ids": []
+  },
+  "evidence": [],
+  "evidence_entry_template": {
+    "evidence_id": null,
+    "source_ref": null,
+    "observed_at": null,
+    "chain_id": 56,
+    "block_number": null,
+    "block_hash": null,
+    "transaction_hash": null,
+    "log_index": null,
+    "coverage_stream_and_range": null,
+    "actual_observation": null,
+    "status": "未知",
+    "valid_until": null,
+    "supports_rule_ids": [],
+    "invalidated_reason": null
+  },
+  "authorization": {
+    "wallet_execution": "none",
+    "wallet_connection": false,
+    "message_signing": false,
+    "transaction_submission": false,
+    "approval_or_revocation": false,
+    "external_notification": "none"
+  },
+  "existing_position": {
+    "status": null,
+    "observed_balance": null,
+    "observed_at": null,
+    "source_ref": null,
+    "exit_blocked_reason": null,
+    "risk_valuation": null,
+    "realized_pnl": null,
+    "pending_revocations": null,
+    "notes": "No wallet read was performed; null does not mean no position."
+  },
+  "config": {
+    "version": null,
+    "evidence_ttl_policy": null,
+    "priority_window_thresholds": null,
+    "retry_limit": null,
+    "sampling_interval": null,
+    "complete": false
+  }
+}
