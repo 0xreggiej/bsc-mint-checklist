@@ -2,16 +2,16 @@
 
 一份在 BNB Smart Chain（BSC）上参与「打新 / mint」之前逐条核对的检查表，主要针对 Binance Agentic Wallet / Agent ID（.ai）生态里出现的第三方代币和 NFT mint。
 
-- **当前版本：v2.2**
-- **更新日期：2026-10-30**
+- **当前版本：v2.5**
+- **更新日期：2026-10-31**
 - 语言：简体中文
 
 ## 内容
 
 | 文件 | 说明 |
 |---|---|
-| [CHECKLIST.md](CHECKLIST.md) | 检查表正文：必须满足 / 继续观察 / 一票否决、执行前检查、卖出参考规则 |
-| [CHANGELOG.md](CHANGELOG.md) | v1 → v2 → v2.1 → v2.2 的变更说明 |
+| [CHECKLIST.md](CHECKLIST.md) | 检查表正文：必须满足 / 继续观察 / 一票否决、执行前后检查、卖出参考规则、工具规则 |
+| [CHANGELOG.md](CHANGELOG.md) | v1 → v2 → v2.1 → v2.2 → v2.3 → v2.4 → v2.5 的变更说明 |
 | [LICENSE](LICENSE) | CC BY 4.0 |
 
 ## 怎么用
