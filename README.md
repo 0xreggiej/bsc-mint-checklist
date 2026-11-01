@@ -2,7 +2,7 @@
 
 用于 BNB Smart Chain 上 Binance Agentic Wallet / Agent ID（.ai）相关第三方 mint 候选的发现、核实和准入判断。
 
-- 日期：2026-10-31。
+- 日期：2026-11-01。
 - 项目类型：公开的规则文档与记录模板，不是自动交易软件；不包含监听器、钱包连接或交易执行实现。
 
 ## 适用对象与用途
@@ -15,7 +15,7 @@
 
 | 文件 | 用途 |
 |---|---|
-| [CHECKLIST.md](CHECKLIST.md) | 完整规则；保留 11 项必须条件和 16 项否决，新增第九章只读发现约束 |
+| [CHECKLIST.md](CHECKLIST.md) | 完整规则；11 项必须条件、17 项否决（含已核实跑路地址比对），第九章只读发现约束 |
 | [DISCOVERY.md](DISCOVERY.md) | 多路径发现、角色归因、扫描缺口、研究排序和复查规范 |
 | [CANDIDATE.template.json](CANDIDATE.template.json) | 空白候选记录，不是真实项目，也不是可执行交易配置 |
 | [CHANGELOG.md](CHANGELOG.md) | 版本变更及历史记录 |

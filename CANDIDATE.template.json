@@ -262,6 +262,11 @@
         "rule_id": "V-16",
         "result": "未知",
         "evidence_ids": []
+      },
+      {
+        "rule_id": "V-17",
+        "result": "未知",
+        "evidence_ids": []
       }
     ],
     "deployer_observations": [
@@ -288,6 +293,12 @@
         "result": "未知",
         "evidence_ids": [],
         "unknown_alone_does_not_downgrade": true
+      },
+      {
+        "rule_id": "D-5",
+        "result": "未知",
+        "evidence_ids": [],
+        "unknown_alone_does_not_downgrade": false
       }
     ],
     "other_observations": [],
